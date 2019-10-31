@@ -1,8 +1,5 @@
 import { addParameters, configure } from '@storybook/react';
 
-// automatically import all files ending in *.stories.js
-configure(require.context('../stories', true, /\.stories\.js$/), module);
-
 addParameters({
   options: {
     isFullscreen: true,
@@ -18,4 +15,3 @@ addParameters({
     storySort: undefined,
   },
 });
-

@@ -9,10 +9,17 @@
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-info": "^5.2.5",
     "@storybook/addon-links": "^5.2.5",
     "@storybook/addons": "^5.2.5",
     "@storybook/react": "^5.2.5",
-    "babel-loader": "^8.0.6"
+    "@types/jest": "^24.0.21",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "react-docgen-typescript-loader": "^3.3.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
