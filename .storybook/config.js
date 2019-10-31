@@ -5,7 +5,7 @@ configure(require.context('../stories', true, /\.stories\.js$/), module);
 
 addParameters({
   options: {
-    isFullscreen: true,
+    isFullscreen: false,
     showNav: true,
     showPanel: true,
     panelPosition: 'bottom',
