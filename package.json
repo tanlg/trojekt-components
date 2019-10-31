@@ -1,0 +1,21 @@
+{
+  "name": "trojekt-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tanlg/trojekt-components.git",
+  "author": "LongguangTan <tanlongguang@mokahr.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-links": "^5.2.5",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/react": "^5.2.5",
+    "babel-loader": "^8.0.6"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
