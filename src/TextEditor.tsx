@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
+import { Editor, EditorState } from 'draft-js';
+import 'draft-js/dist/Draft.css';
 
-export default class extends Component {
-  constructor(props: any) {
-    super(props);
-  }
-  render() {
-    const name = '麻凡的麻烦生活';
-    return <button>{name}</button>;
-  }
+function MyEditor() {
+  const [editorState, setEditorState] = useState(() =>
+    EditorState.createEmpty()
+  );
+
+  return <Editor editorState={editorState} onChange={setEditorState} />;
 }
+
+export default MyEditor;
